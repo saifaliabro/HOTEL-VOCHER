@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" height="100%">
+  <!-- Background transparent -->
+  <g fill="#2D4438">
+    <!-- Peak 1 & Left Leg with Serif Foot -->
+    <!-- Serif foot base: curves from (105,385) through (240,385) -->
+    <!-- Lower left slit cutout: subtract or draw path with notch -->
+    <path d="M105 385 C135 385 160 380 180 345 C195 320 205 285 220 240 L285 45 C290 30 295 20 300 20 C305 20 310 30 312 40 L345 140 C340 145 330 160 325 175 L285 300 C275 330 260 365 240 385 H105 Z" />
+    
+    <!-- Left leg lower teardrop / quill cut -->
+    <!-- Right Peak & Right Leg -->
+    <path d="M328 100 L355 20 C360 20 365 28 370 42 L460 240 C490 305 520 360 550 385 H365 C385 365 400 330 405 295 L415 250 C418 240 425 210 432 185 L360 120 L328 100 Z" />
+
+    <!-- Wave 1: Main top aerodynamic swoop from left across peaks to airplane -->
+    <path d="M108 245 C125 180 185 135 255 140 C325 145 375 205 455 240 C515 265 565 255 605 215 C580 245 530 275 460 265 C380 255 330 180 250 168 C190 160 135 195 108 245 Z" />
+
+    <!-- Wave 2: Middle crescent wave -->
+    <path d="M158 240 C175 210 215 190 260 195 C310 200 350 240 410 265 C460 285 500 280 535 265 C500 288 450 295 400 282 C340 265 300 225 250 218 C205 212 175 225 158 240 Z" />
+
+    <!-- Wave 3: Bottom sweeping dynamic wave -->
+    <path d="M205 270 C220 255 245 245 280 250 C320 255 360 285 415 305 C470 325 515 315 555 290 C515 320 460 335 405 320 C350 305 310 275 270 270 C240 265 218 268 205 270 Z" />
+
+    <!-- The Airplane banking at ~38 degrees -->
+    <g transform="translate(565, 145) rotate(38)">
+      <!-- Fuselage -->
+      <path d="M-10 -70 C-5 -85 5 -85 10 -70 C15 -40 16 20 14 65 C12 75 -12 75 -14 65 C-16 20 -15 -40 -10 -70 Z" />
+      
+      <!-- Cockpit Windows -->
+      <path d="M-6 -68 C-2 -75 2 -75 6 -68 C7 -62 -7 -62 -6 -68 Z" fill="#ffffff" />
+      
+      <!-- Port (Left) Main Wing with Dual Engines -->
+      <path d="M-12 -15 L-95 15 L-90 25 L-12 10 Z" />
+      <!-- Engine 1 & 2 on left wing -->
+      <rect x="-48" y="2" width="10" height="20" rx="4" />
+      <rect x="-72" y="10" width="10" height="20" rx="4" />
+
+      <!-- Starboard (Right) Main Wing with Dual Engines -->
+      <path d="M12 -15 L95 15 L90 25 L12 10 Z" />
+      <!-- Engine 1 & 2 on right wing -->
+      <rect x="38" y="2" width="10" height="20" rx="4" />
+      <rect x="62" y="10" width="10" height="20" rx="4" />
+
+      <!-- Tail Stabilizers and Rudder -->
+      <path d="M-4 50 L-35 70 L-32 78 L-4 68 Z" />
+      <path d="M4 50 L35 70 L32 78 L4 68 Z" />
+      <path d="M-3 45 L0 80 L3 45 Z" />
+    </g>
+
+    <!-- Leg negative space vertical teardrop cutouts to match the exact logo art -->
+    <!-- Left leg teardrop cut -->
+    <path d="M190 350 C185 325 185 295 190 270 C195 295 195 325 190 350 Z" fill="#ffffff" />
+    <!-- Right leg teardrop cut -->
+    <path d="M445 350 C440 325 440 295 445 270 C450 295 450 325 445 350 Z" fill="#ffffff" />
+    <!-- Right peak diagonal inner slit cutout -->
+    <path d="M336 95 L352 28 L356 28 L435 220 L425 220 Z" fill="#ffffff" />
+  </g>
+</svg>

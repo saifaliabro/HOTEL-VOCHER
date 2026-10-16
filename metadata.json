@@ -1,0 +1,8 @@
+{
+  "name": "Remix Aero Adventure - Hotel Voucher Portal",
+  "description": "Professional Hotel Voucher Generator \u0026 Verification Portal for Aero Adventure Travel \u0026 Tours with live preview, PDF export, QR verification, and booking management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
